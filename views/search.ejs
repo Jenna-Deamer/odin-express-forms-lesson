@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Search Results
+    </title>
+</head>
+
+<body>
+    <h1>
+        Search Results
+    </h1>
+
+    <% if (user) { %>
+        <p>Found: <%= user.email %>
+        </p>
+        <% } else { %>
+            <p>No user found with that email.</p>
+            <% } %>
+
+
+</body>
+
+</html>
